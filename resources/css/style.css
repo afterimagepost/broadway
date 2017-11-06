@@ -1,22 +1,26 @@
 html {
-  font-family: "Helvetica";
+  font-family: "Helvetica", sans-serif;
 }
 body {
   text-align: center;
 }
+.intro {
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+}
 h1 {
   font-weight: bold;
   font-size: 70px;
-  color: white;
-  background-image: url("/resources/images/the-flatiron-building.png");
 }
 ul {
   list-style-type: none;
+  font-size: 18px;
+}
 h2 {
   font-size: 32px;
   font-weight: bold;
 }
-.middle {
+#process {
   color: gray;
 }
 h3 {
@@ -28,8 +32,23 @@ p {
 }
 .newyork {
   color: white;
-  background-image: image("the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
-.footer {
+#work {
+  color: gray;
+}
+#team {
+  color: gray;
+}
+#contact {
+  color: gray;
+}
+.copyright {
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
   text-align: left;
+}
+.copyright ul {
+  display: inline;
 }
