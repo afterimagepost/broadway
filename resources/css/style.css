@@ -54,6 +54,8 @@ p {
 .copyright p {
   display: inline;
 }
+.copyright ul {
+  display: inline;
 }
 ul li {
   display: inline;
