@@ -50,7 +50,8 @@ p {
   font-size: 11px;
   background-color: dimgray;
   text-align: left;
+  display: inline;
 }
-ul li {
+.copyright ul li {
   display: inline;
 }
